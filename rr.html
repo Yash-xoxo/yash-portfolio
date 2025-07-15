@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YASHXOXO</title>
+    <style>
+        @font-face {
+            font-family: 'Junicode';
+            src: url('https://cdn.jsdelivr.net/gh/psb1558/Junicode-font@master/fonts/Junicode.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Junicode', serif;
+        }
+
+        body {
+            background: url('https://github.com/Yash-xoxo/yash-portfolio/blob/main/assets/img/output.gif?raw=true') no-repeat center center fixed;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            position: relative;
+        }
+
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: -1;
+        }
+
+        .logo {
+            font-size: 4rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            letter-spacing: 5px;
+        }
+
+        .search-container {
+            width: 90%;
+            max-width: 600px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 30px;
+            padding: 2rem;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .search-box {
+            display: flex;
+            width: 100%;
+        }
+
+        .search-input {
+            flex: 1;
+            padding: 15px 25px;
+            border: none;
+            border-radius: 30px;
+            font-size: 1.2rem;
+            outline: none;
+            background: rgba(255, 255, 255, 0.9);
+            font-family: 'Junicode', serif;
+        }
+
+        @media (max-width: 768px) {
+            .logo {
+                font-size: 2.5rem;
+            }
+            
+            .search-container {
+                padding: 1.5rem;
+            }
+            
+            .search-input {
+                padding: 12px 20px;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">YASHXOXO</div>
+    
+    <div class="search-container">
+        <form class="search-box" action="https://www.google.com/search" method="GET" target="_self">
+            <input type="text" name="q" class="search-input" placeholder="Search...">
+        </form>
+    </div>
+</body>
+</html>
