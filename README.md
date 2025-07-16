@@ -1,7 +1,7 @@
 # Personal Portfolio ⚡️ 
 > A clean, beautiful, responsive portfolio template for Software Developers!!!
 
-> https://yash-xoxo.github.io/portfolio
+[search-page](https://yash-xoxo.github.io/yash-search/)
 
 ![GitHub stars](https://img.shields.io/github/stars/yash-xoxo/yash-xoxo.github.io) 
 ![GitHub forks](https://img.shields.io/github/forks/yash-xoxo/yash-xoxo.github.io)
