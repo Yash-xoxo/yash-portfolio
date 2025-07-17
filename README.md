@@ -35,7 +35,7 @@
 ✔️ Contact Info\
 ✔️ Resume
 
-To view a live example, **[click here](https://yash-xoxo.github.io/yash-portfolio/)**
+To view a live example, **[click here](https://yash-xoxo.github.io/portfoliox/)**
 
 ## Tools Used 🛠️
 * [<b>GitHub Pages</b>](https://create-react-app.dev/docs/deployment/#github-pages) - To host my static website (HTML, CSS, JS).
